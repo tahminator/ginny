@@ -1,0 +1,10 @@
+[package]
+name = "ginny"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+chrono = "0.4.43"
+chrono-tz = "0.10.4"
+dotenvy = "0.15.7"
